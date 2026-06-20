@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TaskFlow Pro</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <aside class="sidebar">
+
+            <div class="logo">
+                <i class="fas fa-layer-group"></i>
+                <h2>TaskFlow</h2>
+            </div>
+
+            <ul>
+
+                <li class="active">
+                    <i class="fas fa-chart-line"></i>
+                    Dashboard
+                </li>
+
+                <li>
+                    <i class="fas fa-folder"></i>
+                    Projects
+                </li>
+
+                <li>
+                    <i class="fas fa-tasks"></i>
+                    Tasks
+                </li>
+
+            </ul>
+
+        </aside>
+
+        <main class="main-content">
+
+            <h1>
+                Project Management Board
+            </h1>
+
+            <section class="dashboard">
+
+                <div class="card">
+                    <h3>Total Projects</h3>
+                    <span id="projectCount">0</span>
+                </div>
+
+                <div class="card">
+                    <h3>Total Tasks</h3>
+                    <span id="taskCount">0</span>
+                </div>
+
+                <div class="card">
+                    <h3>Completed</h3>
+                    <span id="completedCount">0</span>
+                </div>
+
+                <div class="card">
+                    <h3>Pending</h3>
+                    <span id="pendingCount">0</span>
+                </div>
+
+            </section>
+
+            <section class="project-form">
+
+                <input type="text" id="projectName" placeholder="Project Name">
+
+                <button id="addProjectBtn">
+                    Create Project
+                </button>
+
+            </section>
+
+            <section id="projectContainer">
+
+            </section>
+
+        </main>
+
+
+    </div>
+
+    <script src="newscript.js"></script>
+
+</body>
+
+</html>
