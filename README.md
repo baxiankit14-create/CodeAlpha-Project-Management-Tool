@@ -20,4 +20,5 @@
 
 ## Developed For
 
-CodeAlpha Frontend Development Internship
+Frontend implementation developed as part of CodeAlpha Full Stack Development Internship.
+
